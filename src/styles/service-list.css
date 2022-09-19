@@ -1,0 +1,20 @@
+.service_item {
+    font-size: 2.5rem;
+    color: #ffa500 !important;
+}
+.service_item h6 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    transition: .3s;
+}
+.service_item h6:hover {
+    color: #ffa500 !important;
+}
+@media only screen and (max-width: 768px) {
+    .service_item {
+        text-align: center;
+    }
+    .service_item h6 {
+        font-size: 1.1rem !important;
+    }
+}
